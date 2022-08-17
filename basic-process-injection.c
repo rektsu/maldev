@@ -1,6 +1,10 @@
 #include <windows.h>
 #include <stdio.h>
 
+
+// Just one basic encryption method, but this function here is to decrypt the shellcode using the XOR method.
+// Instead of storing the key harcoded we can give the implant an 
+
 void XOR(char * bin, size_t data_len, char * key, size_t key_len)
 {
     int j = 0;

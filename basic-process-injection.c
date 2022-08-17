@@ -49,8 +49,8 @@ int main(int argc, char *argv[])
 
     // CreateThread vs CreateRemoteThread -> CreateThread and CreateRemoteThread are really the same API and work the same way, the only difference being that 
     // CreateThread only allows you to create a thread in the current process while CreateRemoteThread allows you to specify a process to create a thread in.   
-    // This is an advantage, because if you run your reverse shell and the user ends the process you will lost the connection, but creating a thread in a remote process you "migrate" the shellcode to another process,
-    // Meaning the user must end the process (for example Slack, Teams, w.e) to end the reverse shell connection
+    // This is an advantage, because if you run your malicious code and the user ends the process you will lost the connection / code execution, but creating a thread in a remote process you "migrate" the shellcode to another process,
+    // Meaning the user must end the process (for example Slack, Teams, w.e) to end the malicious code from running (i.e bind/reverse shell, etc).
     rThread = CreateRemoteThread(pHandle, NULL, 0, (LPTHREAD_START_ROUTINE) rBuffer, NULL, 0, NULL);
 
     CloseHandle(pHandle);

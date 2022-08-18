@@ -8,8 +8,9 @@ Very basic technique, wrapper coded in C to inject Code into a Process using Win
 #
 
 
+![basic_code_injection7](https://user-images.githubusercontent.com/15212130/185273472-bb480270-e881-419a-bdc6-0eb7f565df81.png)
 
-![Our target process with its PID](https://user-images.githubusercontent.com/15212130/185265772-6096d4ca-3f31-4ab1-b115-63440d0e4b88.png)
+
 
 
 

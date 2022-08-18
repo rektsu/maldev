@@ -17,6 +17,7 @@ Very basic technique, wrapper coded in C to inject Code into a Process using Win
 ![basic_code_injection4](https://user-images.githubusercontent.com/15212130/185273216-1eee928d-24ec-44c3-be21-f26561c15920.png)
 
 ![basic_code_injection5](https://user-images.githubusercontent.com/15212130/185273217-69763a38-2051-468b-82a6-8e44e40d2adc.png)
+![basic_code_injection6](https://user-images.githubusercontent.com/15212130/185273376-0e38f199-b5be-40ce-97d7-f745b081d8b2.png)
 
 
 
